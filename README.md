@@ -1,48 +1,7 @@
-# Astro Starter Kit: Basics
+# 📔 Pueblo Chico. Etnografía de una facultad en una universidad pública en crisis (2017-2023)
+---
+Este es el código utilizado para la página web de mi etnografía. Ingresando al sitio, puedes descargar el libro gratis.
 
-```sh
-npm create astro@latest -- --template basics
-```
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 💡 Abstract
+---
+Este libro se basa en un trabajo etnográfico realizado entre 2017 y 2023 y examina la crisis de la universidad pública boliviana a través del estudio de caso de la Facultad de Ciencias Sociales (FACSO) de la Universidad Mayor de San Simón (UMSS). La autora argumenta que las luchas de poder dentro de la universidad han dado forma a una cultura política clientelista y corporativa, lo que ha llevado al deterioro de la enseñanza, la investigación y la vida académica en general. El libro describe en detalle cómo el clientelismo, el corporativismo y la interferencia de los partidos políticos han afectado a la universidad, impidiendo que cumpla su función académica. A pesar de que el estudio se centra en la FACSO, la autora sugiere que sus hallazgos son aplicables a otras universidades públicas de Bolivia, y que las redes de poder clientelistas y corporativas son dominantes en la política boliviana en general.
