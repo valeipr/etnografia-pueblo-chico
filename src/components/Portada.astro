@@ -1,16 +1,21 @@
 ---
-import portadaLibro from '../assets/img/tapa.jpg';
 import "../styles/global.css"; 
 ---
 
-<div class="container-general h-9/10">
-    <div class="texto-container">
-        <h1 class="text-5xl font-bold" >Descarga el libro</h1>
-        <p class="text-2xl">El aprendiz de brujo que toma el riesgo de interesarse por la brujería y los fetiches de su propia tribu, en lugar de ir a buscar en lejanos trópicos los encantos consoladores de una magia exótica, debe esperar ver desencadenarse contra él la violencia que él ha desencadenado.</p> 
-        <p class="text-2xl font-bold">Pierre Bourdieu, Homo Academicus (1984)</p>
-    </div>
-    
-    <div class="image-container w-150">
-        <img src= "/src/assets/img/tapa.jpg"/>
+<div class="h-[93.5vh] flex justify-center items-center text-negro">
+    <div class="flex flex-row justify-center items-center gap-2">
+        <div class="flex flex-col w-[35%] space-y-5 mr-[15px]">
+            <h1 class="text-4xl font-bold" >Descarga el libro</h1>
+            <p class="text-2xl">"El aprendiz de brujo que toma el riesgo de interesarse por la brujería y los fetiches de su propia tribu, en lugar de ir a buscar en lejanos trópicos los encantos consoladores de una magia exótica, debe esperar ver desencadenarse contra él la violencia que él ha desencadenado".</p> 
+            <p class="text-2xl font-bold">Pierre Bourdieu, Homo Academicus (1984)</p>
+            <div class="flex flex-row gap-8 justify-center mt-[30px]">
+                <button class="bg-negro hover:bg-gray-900 text-white py-3 px-10 rounded-lg text-lg cursor-pointer">Academia.edu</button>
+                <button class="bg-negro hover:bg-gray-900 text-white py-3 px-10 rounded-lg text-lg cursor-pointer">Google Drive</button>
+            </div>
+        </div>
+        
+        <div class="image-container flex justify-center items-center ml-[15px]">
+            <img src= "/src/assets/img/tapa.jpg" class="w-[30vw] rounded-2xl shadow-xl"/>
+        </div>
     </div>
 </div>

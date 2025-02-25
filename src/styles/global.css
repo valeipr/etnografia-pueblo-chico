@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@theme {
+    --color-migris: #E5E2DA;
+    --color-partida: #FDFDFB;
+    --color-negro: #353535;
+  }
