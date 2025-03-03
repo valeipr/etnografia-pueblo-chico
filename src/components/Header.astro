@@ -2,7 +2,99 @@
 import "../styles/global.css"; 
 ---
 
-<nav class="h-[6.5vh] bg-white flex flex-row">
-    <img src= "/src/assets/icons/anvorguesa.svg" class="ml-[10vw] w-[45px]"/>
-</nav>
+<header class="w-full h-[6.5vh] bg-white flex justify-between items-center px-4 md:px-16 py-3 shadow-sm" >
+  <!--Logo ciudatos -->
+  <a href="/" class="logo-izquierdo">
+    <img
+      src="/src/assets/img/libro.png"
+      alt="Ciudatos"
+      class="h-8"
+    />
+  </a>
+
+  <!--Modal -->
+  <div id="modal" class="fixed inset-x-0 top-[-8px] hidden md:hidden overflow-y-auto bg-white transform translate-y-full shadow-md">
+
+<div class="bg-white rounded-lg">
+    <nav class="ml-5">
+        <ul class="flex flex-col text-xl items-center">
+            <li>
+            <a href="/obra" class="mb-4 text-black font-normal mr-4 md:mr-8"
+              >Sobre la obra</a
+            >
+          </li>
+          <li>
+            <a
+              href="/archivo"
+              class="mb-4 text-black font-normal mr-4 md:mr-8"
+              >Archivo</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!--Boton hamburguesa -->
+  <div class="md:hidden sm:block">
+    <button
+      id="openModal"
+      class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+      aria-controls="navbar-default"
+    >
+      <span class="sr-only">Open main menu</span>
+      <svg
+        class="w-5 h-5"
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 17 14"
+      >
+        <path
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M1 1h15M1 7h15M1 13h15"></path>
+      </svg>
+    </button>
+  </div>
+
+  <!--Navbar normal -->
+  <div class="hidden md:block">
+    <nav class="flex">
+      <a
+        href="/obra"
+        class="text-black font-normal mr-4 mt-2 md:mr-8 hover:font-bold"
+        >Sobre la obra</a
+      >
+      <a
+        href="/archivo"
+        class="text-black font-normal mr-4 mt-2 md:mr-8 hover:font-bold"
+        >Archivo</a
+      >
+    </nav>
+  </div>
+
+  <!--Script para mostrar/quitar el modal -->
+  <script>
+    const openModalButton = document.getElementById("openModal");
+    const modal = document.getElementById("modal");
+    const header = document.getElementById("header");
+
+    openModalButton.addEventListener("click", () => {
+      modal.classList.toggle("hidden");
+    });
+
+    //Si el usuario hace scroll el menu de hamburguesa se cierra
+    window.addEventListener("scroll", () => {
+      if (!modal.classList.contains("hidden")) {
+        modal.classList.add("hidden");
+      }
+    });
+  </script>
+</header>
+
+
+
 
