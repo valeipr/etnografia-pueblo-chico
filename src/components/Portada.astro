@@ -2,20 +2,19 @@
 import "../styles/global.css"; 
 ---
 
-<div class="h-[93.5vh] flex justify-center items-center text-negro">
-    <div class="flex flex-row justify-center items-center gap-2">
-        <div class="flex flex-col w-[35%] space-y-5 mr-[20px]">
-            <h1 class="text-4xl font-bold" >Descarga el libro</h1>
-            <p class="text-2xl">"El aprendiz de brujo que toma el riesgo de interesarse por la brujería y los fetiches de su propia tribu, en lugar de ir a buscar en lejanos trópicos los encantos consoladores de una magia exótica, debe esperar ver desencadenarse contra él la violencia que él ha desencadenado".</p> 
-            <p class="text-2xl font-bold">Pierre Bourdieu, Homo Academicus (1984)</p>
-            <div class="flex flex-row gap-8 justify-center mt-[30px]">
-                <button class="bg-negro hover:bg-gray-900 text-white py-3 px-10 rounded-lg text-lg cursor-pointer hover:shadow-md transition delay-150 duration-00">Academia.edu</button>
-                <button class="bg-negro hover:bg-gray-900 text-white py-3 px-10 rounded-lg text-lg cursor-pointer hover:shadow-md transition delay-150 duration-00">Google Drive</button>
+<div class="h-auto mt-[30px] lg:mt-[0px] lg:h-[96.5vh] flex flex-col lg:flex-row  justify-center text-negro">
+    <div class="flex lg:flex-row flex-col justify-center items-center gap-1 lg:gap-2"> 
+        <div class="flex flex-col lg:w-[35%] w-[80%] lg:space-y-5 lg:mr-[20px]">
+            <h1 class="text-2xl lg:text-4xl font-bold" >Descarga el libro</h1>
+            <p class="text-lg lg:text-xl">"El aprendiz de brujo que toma el riesgo de interesarse por la brujería y los fetiches de su propia tribu, en lugar de ir a buscar en lejanos trópicos los encantos consoladores de una magia exótica, debe esperar ver desencadenarse contra él la violencia que él ha desencadenado".<b> Pierre Bourdieu, Homo Academicus (1984)</b></p> 
+            <div class="flex flex-col lg:flex-row gap-2 lg:gap-8 items-center justify-center mt-[20px] mb-[20px]">
+                <button class="bg-negro hover:bg-gray-900 text-white py-3 w-[200px] lg:px-10 rounded-lg text-base lg:text-lg cursor-pointer">Academia.edu</button>
+                <button class="bg-negro hover:bg-gray-900 text-white py-3 w-[200px] lg:px-10 rounded-lg text-base lg:text-lg cursor-pointer">Google Drive</button>
             </div>
         </div>
         
-        <div class="image-container flex justify-center items-center ml-[20px]">
-            <img src= "/src/assets/img/tapa.jpg" class="w-[30vw] rounded-2xl shadow-xl"/>
+        <div class="flex justify-center items-center lg:ml-[20px]">
+            <img src= "/src/assets/img/tapa.jpg" class="lg:w-[30vw] w-[90vw] rounded-2xl shadow-xl"/>
         </div>
     </div>
 </div>
