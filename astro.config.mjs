@@ -5,8 +5,8 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://valeipr.github.io',
-  base: 'etnografia-pueblo-chico/',
+  // site: 'https://valeipr.github.io',
+  // base: 'etnografia-pueblo-chico/',
   vite: {
     plugins: [tailwindcss()]
   }
